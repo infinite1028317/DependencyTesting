@@ -6,6 +6,13 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven {
+            url "https://jitpack.io"
+            credentials { username "infinite1028317"
+            password "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"
+            }
+        }
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.3'
